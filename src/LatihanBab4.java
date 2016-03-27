@@ -35,6 +35,7 @@ class Buku{
         return email;
     }
 }
+
 public class LatihanBab4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -61,5 +62,4 @@ public class LatihanBab4 {
             System.out.println("EMAIL       : "+user[i].getEmail());
         }
     }
-    
 }
