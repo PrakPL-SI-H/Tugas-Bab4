@@ -43,13 +43,14 @@ public class LatihanBab4 {
             user[i]= new Buku();   
         }
         for (int i = 0; i < user.length; i++) {
-            System.out.println("Masukkan Nama   : ");
+            System.out.println("===========================");
+            System.out.print("Masukkan Nama   : ");
             user[i].setName(in.next());
-            System.out.println("Masukkan Alamat : ");
+            System.out.print("Masukkan Alamat : ");
             user[i].setAddress(in.next());
-            System.out.println("Masukkan No.Telp: ");
+            System.out.print("Masukkan No.Telp: ");
             user[i].setNumber(in.next());
-            System.out.println("Masukkan Email  : ");
+            System.out.print("Masukkan Email  : ");
             user[i].setEmail(in.next());  
         }
         for (int i = 0; i < user.length; i++) {
