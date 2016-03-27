@@ -14,19 +14,19 @@ public class Enkapsulasi {
     }
 
     public void setNama(String nam) {
-
+        nama=nam;
     }
 
     public void setAlamat(String alama) {
-
+        alamat=alama;
     }
 
     public void setNotlp(String no) {
-
+        notlp=no;
     }
 
     public void setEmail(String mail) {
-
+        e_mail=mail;
     }
 
     public String getNama() {
@@ -44,7 +44,5 @@ public class Enkapsulasi {
     public String getEmail() {
         return e_mail;
     }
-    
-    
     
 }
