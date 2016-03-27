@@ -33,7 +33,14 @@ public class BukuAlamat {
     public void  setEmail(String d){
         email = d;
     }
-    public String getaeEmail(){
+    public String getEmail(){
         return email;
+    }
+    public void drome(){
+        System.out.println("NAMA            :"+getNama());
+        System.out.println("ALAMAT          :"+getAlamat());
+        System.out.println("NOMOR TELEPON   :"+getNotel());
+        System.out.println("ALAMAT E-MAIL   :"+getEmail());
+        System.out.println("================================");
     }
 }
