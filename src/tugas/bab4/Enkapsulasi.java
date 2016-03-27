@@ -13,20 +13,20 @@ public class Enkapsulasi {
         this.email = email;
     }
 
-    public void setNama(String nam) {
-        nama=nam;
+    public void setNama() {
+        nama=name;
     }
 
-    public void setAlamat(String alama) {
-        alamat=alama;
+    public void setAlamat() {
+        alamat=address;
     }
 
-    public void setNotlp(String no) {
-        notlp=no;
+    public void setNotlp() {
+        notlp=numtlp;
     }
 
-    public void setEmail(String mail) {
-        e_mail=mail;
+    public void setEmail() {
+        e_mail=email;
     }
 
     public String getNama() {
