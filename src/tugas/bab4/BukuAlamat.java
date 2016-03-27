@@ -18,4 +18,22 @@ public class BukuAlamat {
     public String getNama(){
         return nama;
     }
+   public void  setAlamat(String b){
+        alamat = b;
+    }
+    public String getAlamat(){
+        return alamat;
+    }
+    public void  setNotel(String c){
+        notel = c;
+    }
+    public String getNotel(){
+        return notel;
+    }
+    public void  setEmail(String d){
+        email = d;
+    }
+    public String getaeEmail(){
+        return email;
+    }
 }
