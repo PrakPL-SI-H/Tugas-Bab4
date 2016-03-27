@@ -1,6 +1,5 @@
 public class Data {
-    private String nama;
-    private String alamat;
+    private String nama, alamat, email, notelepon;
     
     public void setNama (String name){
         this.nama = name;
@@ -13,6 +12,15 @@ public class Data {
     }
     public String getAlamat (){
         return alamat;
+    }
+    public void setEmail (String mail){
+        this.email = mail;
+    }
+    public String getEmail (){
+        return email;
+    }
+    public void setNotelepom (String no){
+        this.notelepon = no;
     }
             
 }
