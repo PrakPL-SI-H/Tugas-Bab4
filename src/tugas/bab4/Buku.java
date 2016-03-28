@@ -23,8 +23,22 @@ class Buku{
         this.alamat = "";
         this.nomerTelp = "";
         this.email =  "";
+         }
+    public void setName(String nama){
+        this.nama = nama;
+    }
+    public void setAddress(String alamat){
+        this.alamat = alamat;
+    }
+    public void setNumber(String nomerTelp){
+        this.nomerTelp = nomerTelp;
+    }
+    public void setEmail(String email){
+        this.email = email;
+    }
     }
     
-     }
+    
+     
     
  
