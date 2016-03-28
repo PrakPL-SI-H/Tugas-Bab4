@@ -13,6 +13,7 @@ public class MainData {
         user.setNotelepon(in.nextLine());
         System.out.print("Masukkan Alamat E-mail : ");
         user.setEmail(in.nextLine());
+        user.displayMessage();
     }
     
 }
