@@ -22,5 +22,17 @@ public class BukuMain {
         for (int i = 0; i < user.length; i++) {
             user[i]= new Buku();   
         }
+         for (int i = 0; i < user.length; i++) {
+            System.out.println("PENGISIAN BUKU DATA PRIBADI");
+            System.out.println("===========================");
+            System.out.println("Masukkan Nama anda       : ");
+            user[i].setName(in.next());
+            System.out.println("Masukkan Alamat anda     : ");
+            user[i].setAddress(in.next());
+            System.out.println("Masukkan No.Telepon anda : ");
+            user[i].setNumber(in.next());
+            System.out.println("Masukkan Email anda      : ");
+            user[i].setEmail(in.next());  
     }
 } 
+}
