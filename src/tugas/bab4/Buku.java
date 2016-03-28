@@ -36,7 +36,20 @@ class Buku{
     public void setEmail(String email){
         this.email = email;
     }
+    public String getName(){
+        return nama;
     }
+    public String getAddress(){
+        return alamat;
+    }
+    public String getNumber(){
+        return nomerTelp;
+    }
+    public String getEmail(){
+        return email;
+     }
+    
+ }
     
     
      
