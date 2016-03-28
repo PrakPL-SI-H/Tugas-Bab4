@@ -31,9 +31,16 @@ public class Data {
     public void setNotelepon (String no){
         this.notelepon = no;
     }
-    public void displayMessage(){
-         System.out.printf("|%-25s |%-40s |%-20s |%-30s | \n", "Nama", "Alamat","Nomor Telepon","Alamat E-mail");
-     System.out.printf("|%-25s |%-40s |%-20s |%-30s | \n", nama, alamat, notelepon,email );
+    public void displayMessage(int x){
+           if (x == 0) {
+            System.out.println("==================================================================================================================================");
+            System.out.println("\t\t\t\t\t\t\tBUKU ALAMAT");
+            System.out.println("==================================================================================================================================");
+            System.out.printf("|%-5s |%-25s |%-40s |%-20s |%-30s | \n", "No", "Nama", "Alamat","Nomor Telepon","Alamat E-mail");
+            System.out.println("==================================================================================================================================");
+        }
+     System.out.printf("|%-5s |%-25s |%-40s |%-20s |%-30s | \n", x+1, nama, alamat, notelepon,email );
+     System.out.println("----------------------------------------------------------------------------------------------------------------------------------");
     }
             
 }

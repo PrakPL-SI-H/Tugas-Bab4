@@ -11,9 +11,12 @@ public class MainData {
 
         do {
             user[i] = new Data();
-            System.out.print("Masukkan Nama : ");
+             System.out.println("==========================================================");
+            System.out.println("\t\tPendataan Buku Alamat");
+            System.out.println("==========================================================\n");
+            System.out.print("Masukkan Nama          : ");
             user[i].setNama(in.nextLine());
-            System.out.print("Masukkan Alamat : ");
+            System.out.print("Masukkan Alamat        : ");
             user[i].setAlamat(in.nextLine());
             System.out.print("Masukkan Nomor Telepon : ");
             user[i].setNotelepon(in.nextLine());
@@ -26,7 +29,7 @@ public class MainData {
             in.nextLine();
             if (pil == 'T') {
                 for (int x =0 ; x<i;x++){
-                    user[x].displayMessage();
+                    user[x].displayMessage(x);
                 }
             }
         } while (pil != 'T');
