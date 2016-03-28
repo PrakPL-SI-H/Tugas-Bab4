@@ -1,5 +1,14 @@
 public class Data {
     private String nama, alamat, email, notelepon;
+    Data(){
+    
+    }
+    Data (String name, String address, String mail, String no){
+        this.nama = name;
+        this.alamat = address;
+        this.notelepon = no;
+        this.email = mail;
+    }
     
     public void setNama (String name){
         this.nama = name;
@@ -19,7 +28,7 @@ public class Data {
     public String getEmail (){
         return email;
     }
-    public void setNotelepom (String no){
+    public void setNotelepon (String no){
         this.notelepon = no;
     }
             
