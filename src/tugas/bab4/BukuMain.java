@@ -34,5 +34,12 @@ public class BukuMain {
             System.out.println("Masukkan Email anda      : ");
             user[i].setEmail(in.next());  
     }
+         for (int i = 0; i < user.length; i++) {
+            System.out.println("======CATATAN BUKU ALAMAT======");
+            System.out.println("NAMA        : "+user[i].getName());
+            System.out.println("ALAMAT      : "+user[i].getAddress());
+            System.out.println("NO.TELP/HP  : "+user[i].getNumber());
+            System.out.println("EMAIL       : "+user[i].getEmail());
+        }
 } 
 }
