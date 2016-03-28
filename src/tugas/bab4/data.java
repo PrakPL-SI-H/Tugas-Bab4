@@ -9,7 +9,12 @@ private String email;
     public String getAlamat(){  //ACCESSOR
         return alamat;
     }
-    public void setAlamat(String temp){ //MUTATOR
-        alamat = temp;
+    
+    public void tampilkan(){
+        System.out.println("++++++++ Buku Telpon ++++++++");
+        System.out.println("Nama : "+nama); //dari constructor
+        System.out.println("Alamat : "+getAlamat());
+        System.out.println("Nomor telp : ");
+        System.out.println("Email : ");
     }
 }
