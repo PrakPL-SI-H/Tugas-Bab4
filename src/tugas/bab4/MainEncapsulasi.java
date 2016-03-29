@@ -49,16 +49,9 @@ public class MainEncapsulasi {
         System.out.println("Nomor Telepon\t: " + data4.getTelp());
         System.out.println("Alamat E-mail\t: " + data4.getEmail());
         System.out.println("");
-        System.out.println("Nama\t\t: " + data1.getNama());
-        System.out.println("Alamat\t\t: " + data1.getAlamat());
-        System.out.println("Nomor Telepon\t: " + data1.getTelp());
-        System.out.println("Alamat E-mail\t: " + data1.getEmail());
-        System.out.println("");
         System.out.println("Nama\t\t: " + data5.getNama());
         System.out.println("Alamat\t\t: " + data5.getAlamat());
         System.out.println("Nomor Telepon\t: " + data5.getTelp());
         System.out.println("Alamat E-mail\t: " + data5.getEmail());
-
     }
-
 }
