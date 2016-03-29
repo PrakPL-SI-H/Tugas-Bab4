@@ -1,6 +1,6 @@
 package addressbook;
 
-public class Data {
+public final class Data {
 
     private String name;
     private String address;
@@ -8,7 +8,7 @@ public class Data {
     private String emailAddress;
     public Data(){}
 
-    public Data(String a, String b, int c, String d) { //Membuat Konstruktor
+    public Data(String a, String b, int c, String d) { //Membuat Konstruktor 
         setName(a);
         setAddress(b);
         setNocall(c);
@@ -45,5 +45,11 @@ public class Data {
 
     public String getEmail() { //Membuat Accesor getEmail
         return emailAddress;
+    }
+    public void showKonstruk(){
+        System.out.println("Nama     :"+name);
+        System.out.println("Alamat   :"+address);
+        System.out.println("No.Telp  :"+noCall);
+        System.out.println("E-Mail   :"+emailAddress);
     }
 }
