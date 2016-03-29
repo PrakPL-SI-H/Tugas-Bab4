@@ -35,6 +35,22 @@ public class AddressBook {
             System.out.print("Masukkan E-Mail  : ");
             masukan[i].setEmail(in.next());
         }
-         
+            System.out.println();
+            System.out.println("    ======ADDRESS BOOK UNIVERSE======");
+            System.out.println("Data Berhasil DItambahkan....");
+        for (int i = 0; i < masukan.length; i++) { //outputan sesuai masukan
+            
+            System.out.println("          =======DATA " + (i + 1) + "=======");
+            System.out.println("NAME                : " + masukan[i].getName());
+            System.out.println("ADDRESS             : " + masukan[i].getAddress());
+            System.out.println("NO.TELP             : " + masukan[i].getNocall());
+            System.out.println("EMAIL ADDRESS       : " + masukan[i].getEmail());
 
-}}
+        }
+        System.out.println("");
+        System.out.println("             TERIMA KASIH");
+        System.out.println("         ===PROGRAM CLOSED===");
+
+    }
+
+}
