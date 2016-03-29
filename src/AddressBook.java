@@ -15,5 +15,10 @@ public class AddressBook {
         Data konstruktor = new Data("Universitas Brawijaya", "Malang", 12345, "ub@gmail.com");
         System.out.println("        ===ADDRESS BOOK UNIVERSE===");
         System.out.println("");
+        konstruktor.showKonstruk();
+        System.out.println();
+        System.out.print("Banyak Data Masukkan :");
+        int x = in.nextInt(); //untuk mengisi berapa banyak index array
         
+
 }}
