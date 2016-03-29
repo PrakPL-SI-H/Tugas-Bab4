@@ -36,4 +36,12 @@ public class BukuAlamat {
         public String getEmail(){
             return email;
         }
+        
+        public void showInfo(){
+            System.out.println("Nama\t\t : "+nama);
+            System.out.println("Alamat\t\t : "+getAlamat());
+            System.out.println("Nomor Telepon\t : "+getNotelp());
+            System.out.println("Alamat E-mail\t : "+getEmail());
+            System.out.println("");
+        }        
 }
