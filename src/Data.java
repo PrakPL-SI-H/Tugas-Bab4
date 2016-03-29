@@ -19,4 +19,17 @@ public class Data {
     public void setEmail(String a){ //Membuat Mutator setEmail
         this.emailAddress=a;
     }
+    
+    public String getName(){ //Membuat Accesor getName
+        return name;
+    }
+    public String getAddress(){ //Membuat Accesor getAddress
+        return address;
+    }
+    public int getNocall(){ //Membuat Accesor getNocall
+        return noCall;
+    }
+    public String getEmail(){ //Membuat Accesor getEmail
+        return emailAddress;
+    }
 }
