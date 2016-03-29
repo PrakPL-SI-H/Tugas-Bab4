@@ -2,32 +2,41 @@
 package mainencapsulasi;
 
 public class Encapsulasi {
-    private String nama[], alamat[], telp[], email[];
-    public static int i = 0;
+    private String nama, alamat, telp, email;
     
+    public Encapsulasi(){
+        
+    }
     public Encapsulasi(String a, String b, String c, String d){
-        setBuku(a, b, c, d);
-        i++;
+        nama = a;
+        alamat = b;
+        telp = c;
+        email = d;
     }
     
-    public void setBuku(String a, String b, String c, String d){
-        nama[i] = a;
-        alamat[i] = b;
-        telp[i] = c;
-        email[i] = d;
+    public void setNama(String a){
+        nama = a;
+    }
+    public void setAlamat(String b){
+        alamat = b;
+    }
+    public void setTelp(String c){
+        telp = c;
+    }
+    public void setEmail(String d){
+        email = d;
     }
     
-    public String getNama(int j){
-        return nama[j];
+    public String getNama(){
+        return nama;
     }
-    
-    public String getAlamat(int j){
-        return alamat[j];
+    public String getAlamat(){
+        return alamat;
     }
-    public String getTelp(int j){
-        return telp[j];
+    public String getTelp(){
+        return telp;
     }
-    public String getEmail(int j){
-        return email[j];
+    public String getEmail(){
+        return email;
     }
 }
