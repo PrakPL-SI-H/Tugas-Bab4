@@ -47,9 +47,12 @@ public final class Data {
         return emailAddress;
     }
     public void showKonstruk(){
+        //tampilan KHUSUS untuk kosntruktor
+        System.out.println("      ===Data Default Konstruktor==="); 
         System.out.println("Nama     :"+name);
         System.out.println("Alamat   :"+address);
         System.out.println("No.Telp  :"+noCall);
         System.out.println("E-Mail   :"+emailAddress);
+        System.out.println("      ==============================");
     }
 }
