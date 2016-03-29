@@ -5,12 +5,8 @@ public class BukuAlamat {
     private String notelp;
     private String email;
     
-        public void setNama (String n){
-        nama = n;
-        }
-        
-        public String getNama(){
-            return nama;
+        public BukuAlamat (String n){
+            nama = n;
         }
         
         public void setAlamat(String al){
