@@ -17,4 +17,17 @@ public class Encapsulasi {
         email[i] = d;
     }
     
+    public String getNama(int j){
+        return nama[j];
+    }
+    
+    public String getAlamat(int j){
+        return alamat[j];
+    }
+    public String getTelp(int j){
+        return telp[j];
+    }
+    public String getEmail(int j){
+        return email[j];
+    }
 }
