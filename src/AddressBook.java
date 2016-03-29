@@ -19,6 +19,22 @@ public class AddressBook {
         System.out.println();
         System.out.print("Banyak Data Masukkan :");
         int x = in.nextInt(); //untuk mengisi berapa banyak index array
-        
+        Data[] masukan = new Data[x];
+        for (int i = 0; i < masukan.length; i++) {
+            masukan[i] = new Data();
+        }
+        for (int i = 0; i < masukan.length; i++) { //perulangan untuk masukan
+            System.out.println("    ========DATA " + (i + 1) + "=========");
+            System.out.println();
+            System.out.print("Masukkan Nama    : ");
+            masukan[i].setName(in.next());
+            System.out.print("Masukkan Alamat  : ");
+            masukan[i].setAddress(in.next());
+            System.out.print("Masukkan No.Telp : ");
+            masukan[i].setNocall(in.nextInt());
+            System.out.print("Masukkan E-Mail  : ");
+            masukan[i].setEmail(in.next());
+        }
+         
 
 }}
