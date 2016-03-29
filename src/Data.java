@@ -6,9 +6,10 @@ public final class Data {
     private String address;
     private int noCall;
     private String emailAddress;
-    public Data(){}
+    public Data(){}//konstruktor kosong(default).
 
     public Data(String a, String b, int c, String d) { //Membuat Konstruktor 
+        //konstruktor untuk class Data
         setName(a);
         setAddress(b);
         setNocall(c);

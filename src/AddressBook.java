@@ -19,7 +19,7 @@ public class AddressBook {
         System.out.println();
         System.out.print("Banyak Data Masukkan :");
         int x = in.nextInt(); //untuk mengisi berapa banyak index array
-        Data[] masukan = new Data[x];
+        Data[] masukan = new Data[x]; //membuat objek type array baru
         for (int i = 0; i < masukan.length; i++) {
             masukan[i] = new Data();
         }
