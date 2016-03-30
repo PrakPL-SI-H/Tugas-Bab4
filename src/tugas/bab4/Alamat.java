@@ -46,13 +46,4 @@ public class Alamat {
         return this.Email;
     }
 
-    public void displayMessage() {
-        System.out.println("------------------------------------------------------");
-        System.out.printf("%-25s\t%s\n", "Atribut", "Deskripsi");
-        System.out.println("------------------------------------------------------");
-        System.out.printf("%-20s\t%s\n", "Nama", getNama());
-        System.out.printf("%-20s\t%s\n", "Alamat", getAlamat());
-        System.out.printf("%-20s\t%s\n", "NomorTelepon", getNoTelp());
-        System.out.printf("%-20s\t%s\n", "Alamat E-Mail", getEmail());
-    }
 }
