@@ -28,7 +28,8 @@ public class Main {
         mail[2] = p3.getMail();
 
         System.out.println(line);
-        System.out.println("BUKU KONTAK");
+        System.out.println("            DAFTAR KONTAK");
+        System.out.println(line);
         for (int i = 0; i < nama.length; i++) {
             System.out.print("NAMA      : ");
             System.out.println(nama[i]);
@@ -38,6 +39,7 @@ public class Main {
             System.out.println(nomor[i]);
             System.out.print("E-MAIL    : ");
             System.out.println(mail[i]);
+            System.out.println("");
         }
         System.out.println(line);
     }
