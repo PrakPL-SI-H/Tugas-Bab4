@@ -1,0 +1,62 @@
+package BukuAlamat;
+
+public class BukuAlamat {
+
+    private String nama;
+    private String alamat;
+    private String telepon;
+    private String email;
+
+    public BukuAlamat() {
+    }
+
+    public BukuAlamat(String a, String b, String c, String d) {
+        nama = a;
+        alamat = b;
+        telepon = c;
+        email = d;
+    }
+
+    public void setNama(String a) {
+        nama = a;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setAlamat(String b) {
+        alamat = b;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setTelepon(String c) {
+        telepon = c;
+    }
+
+    public String getTelepon() {
+        return telepon;
+    }
+
+    public void setEmail(String d) {
+        email = d;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+    
+    public void tampilkan() {
+        System.out.println("____________________________________________________________");
+        System.out.printf("%-20s\t%s\n", "Atribut", "Deskripsi");
+        System.out.println("____________________________________________________________");
+        System.out.printf("%-20s\t%s\n", "Nama", nama);
+        System.out.printf("%-20s\t%s\n", "Alamat", alamat);
+        System.out.printf("%-20s\t%s\n", "Nomor Telepon", telepon);
+        System.out.printf("%-20s\t%s\n", "Alamat E-Mail", email);
+        System.out.println("____________________________________________________________");
+    }
+}
