@@ -1,10 +1,12 @@
+import java.util.Scanner;
 public class data{
-private static String nama;
+public static String nama;
 private String alamat;
 private String notlp;
 private String email;
-    public data (String temp){ //CONSTRUCTOR
-        nama = temp;
+Scanner ini = new Scanner(System.in);
+    public data (String nama){ //CONSTRUCTOR
+        this.nama = nama;
     }
     public String getAlamat(){  //ACCESSOR
         return alamat;
