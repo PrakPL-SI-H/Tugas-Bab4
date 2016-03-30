@@ -8,7 +8,7 @@ public class MainAlamat {
         System.out.println();
         Alamat a2 = new Alamat();
         a2.setNama("Katherine IvanaRuslim");
-        a2.setAlamat("JalanSumber Sari Gg 1 No 2");
+        a2.setAlamat("Jalan SumberSari Gg 1 No 2");
         a2.setNoTelp("081266406565");
         a2.setEmail("katherineruslim@yahoo.co.id");
         a2.displayMessage();
