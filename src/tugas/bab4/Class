@@ -16,3 +16,35 @@ public class BukuAlamat {
         telepon = c;
         email = d;
     }
+
+    public void setNama(String a) {
+        nama = a;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setAlamat(String b) {
+        alamat = b;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setTelepon(String c) {
+        telepon = c;
+    }
+
+    public String getTelepon() {
+        return telepon;
+    }
+
+    public void setEmail(String d) {
+        email = d;
+    }
+
+    public String getEmail() {
+        return email;
+    }
