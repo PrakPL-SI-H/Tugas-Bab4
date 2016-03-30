@@ -1,1 +1,7 @@
+package BukuAlamat;
 
+public class MainBukuAlamat {
+
+    public static void main(String[] args) {
+        BukuAlamat org1 = new BukuAlamat("Nanda Fiesta Farada", "Jln Sunan Kali Jaga No.14 Malang", "085608075687", "nandafiestafarada@yahoo.com");
+        org1.tampilkan();
