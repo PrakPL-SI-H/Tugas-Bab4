@@ -45,4 +45,28 @@ public class Alamat {
         System.out.printf(" ||%20s\t%s\n","  Alamat E-Mail     |",getEmail());
         System.out.println(" ===========================================================");
     }
+    public static void main(String[] args) {
+        Alamat identitas1 = new Alamat("Lili Kordina", "Puri Cempaka Putih II", "081234567890", "lilikordina@gmail.com");
+        identitas1.displayMessage();
+        System.out.println();
+        Alamat identitas2 = new Alamat();
+        identitas2.setNama("Annastasya Shabrina");
+        identitas2.setAlamat("Sekip Ujung Palembang");
+        identitas2.setNoTelp("081234567890");
+        identitas2.setEmail("nastishabrina@gmail.com");
+        identitas2.displayMessage();
+        System.out.println();
+        Alamat identitas3 = new Alamat();
+        identitas3.setNama("Kayla Latifah Yanuarti");
+        identitas3.setAlamat("Sekip Ujung Palembang");
+        identitas3.setNoTelp("081234567890");
+        identitas3.setEmail("kaylayanuarti@gmail.com");
+        identitas3.displayMessage();
+        System.out.println();
+        Alamat identitas4 = new Alamat("M. Ikhsan Al-Hafiz", "Talang Pangeran Ulu", "081234567890", "ican_alhafiz@gmail.com");
+        identitas4.displayMessage();
+        System.out.println();
+        Alamat identitas5 = new Alamat("Alfiyah Zahra Ramadhani", "Komp. Sintraman Jaya", "081234567890", "azahraramadhani@gmail.com");
+        identitas3.displayMessage();
+    }
 }
