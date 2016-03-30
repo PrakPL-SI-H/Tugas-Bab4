@@ -14,6 +14,14 @@ public class MainAlamat {
         a2.displayMessage();
         System.out.println();
         Alamat a3 = new Alamat("Afni Hasanah", "Jalan MT Haryono No 35", "082284574507", "afnihasanah@gmail.com");
-        a3.displayMessage(); 
+        a3.displayMessage();      
+        Alamat a4 = new Alamat("Dona Adestia","Jalan Papa Putih No 10","082276580932","donaadestia@gmail.com");
+        a4.displayMessage();       
+        Alamat a5 = new Alamat();
+        a5.setNama("Aulya Ramadhani");
+        a5.setAlamat("Jalan Terusan Cikampek Kav 4A");
+        a5.setNoTelp("089645783475");
+        a5.setEmail("caul@yahoo.co.id");
+        a5.displayMessage();
     }
 }
