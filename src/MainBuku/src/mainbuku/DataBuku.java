@@ -1,10 +1,10 @@
 package mainbuku;
 
 public class DataBuku {
-    private String nama;
-    private String alamat;
-    private int telp;
-    private String email;
+    private static String nama;
+    private static String alamat;
+    private static int telp;
+    private static String email;
     
     public DataBuku (){
     }
