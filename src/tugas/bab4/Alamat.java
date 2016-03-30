@@ -33,4 +33,16 @@ public class Alamat {
     public String getEmail() {
         return this.Email;
     }
+    public void displayMessage() {
+        System.out.printf("%-25s\t%s\n", "     Atribut", "Deskripsi");
+        System.out.println(" ===========================================================");
+        System.out.printf(" ||%20s\t%s\n","  Nama              |",getNama());
+        System.out.println("------------------------------------------------------------");
+        System.out.printf(" ||%20s\t%s\n","  Alamat            |",getAlamat());
+        System.out.println("------------------------------------------------------------");
+        System.out.printf(" ||%20s\t%s\n","  Nomor Telepon     |",getNomorTelp());
+        System.out.println("------------------------------------------------------------");
+        System.out.printf(" ||%20s\t%s\n","  Alamat E-Mail     |",getEmail());
+        System.out.println(" ===========================================================");
+    }
 }
