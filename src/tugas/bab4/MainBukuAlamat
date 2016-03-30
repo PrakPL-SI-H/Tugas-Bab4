@@ -5,3 +5,24 @@ public class MainBukuAlamat {
     public static void main(String[] args) {
         BukuAlamat org1 = new BukuAlamat("Nanda Fiesta Farada", "Jln Sunan Kali Jaga No.14 Malang", "085608075687", "nandafiestafarada@yahoo.com");
         org1.tampilkan();
+        BukuAlamat org2 = new BukuAlamat("Nanda Juwie Masidayu", "Jln Bendungan Riam Jaga No.25 Malang", "085607271712", "nandajuwiemasidayu@yahoo.com");
+        org2.tampilkan();
+        BukuAlamat org3 = new BukuAlamat("Nanda Putra Azmy Mohammad", "Jln Soekarno Hatta No.01 Malang", "082376890117", "nandaputraazmy@yahoo.com");
+        org3.tampilkan();
+        BukuAlamat org4 = new BukuAlamat("Avip Cahyo Saputra", "Jln Bung Tomo No.45 Malang", "085608074576", "avipcahyo@yahoo.com");
+        org4.tampilkan();
+        BukuAlamat org5 = new BukuAlamat();
+        org5.setNama("Marisania Pramesti Cahyani");
+        org5.setAlamat("Jln sigura-gura No.37 Malang");
+        org5.setTelepon("085123456789");
+        org5.setEmail("pmarisania@yahoo.com");
+        System.out.println("____________________________________________________________");
+        System.out.printf("%-20s\t%s\n", "Atribut", "Deskripsi");
+        System.out.println("____________________________________________________________");
+        System.out.printf("%-20s\t%s\n", "Nama", org5.getNama());
+        System.out.printf("%-20s\t%s\n", "Alamat", org5.getAlamat());
+        System.out.printf("%-20s\t%s\n", "Nomor Telepon", org5.getTelepon());
+        System.out.printf("%-20s\t%s\n", "Alamat E-Mail", org5.getEmail());
+        System.out.println("____________________________________________________________");
+    }
+}
