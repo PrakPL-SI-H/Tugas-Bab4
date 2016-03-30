@@ -43,3 +43,24 @@ public void DisplayMessage() {
     }
 
 }
+
+class MainBukuAlamat{
+public static void main(String args[]){
+BukuAlamat ba = new BukuAlamat();
+Scanner input = new Scanner(System.in);
+System.out.println("===Buku Alamat===");
+System.out.print("Masukkan nama : ");
+String nama = input.nextLine();
+ba.setNama(nama);
+System.out.print("Masukkan alamat anda : ");
+String alamat = input.nextLine();
+ba.setAlamat(alamat);
+System.out.print("Masukkan nomor telepon anda : ");
+String notel = input.nextLine();
+ba.setNomortel(notel);
+System.out.print("Masukkan alamat email anda : ");
+String email = input.nextLine();
+ba.setEmail(email);
+ba.DisplayMessage();
+}
+}
