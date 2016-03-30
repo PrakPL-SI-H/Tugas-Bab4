@@ -10,4 +10,4 @@ Nama	: Atikah Febrianti Nastiti
 
 NIM 	: 155150400111004
 
-KELAS : SI-H
+KELAS   : SI-H
