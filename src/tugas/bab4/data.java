@@ -34,3 +34,4 @@ Scanner ini = new Scanner(System.in);
         System.out.println("Email : "+getEmail());
     }
 }
+//
