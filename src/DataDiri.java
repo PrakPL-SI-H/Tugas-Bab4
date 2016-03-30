@@ -8,7 +8,7 @@ public class DataDiri {
     private String email;
 
     public DataDiri() {
-        
+
     }
 
     public void setAlamat(String Alamat) {
@@ -43,12 +43,4 @@ public class DataDiri {
         return NoTelepon;
     }
 
-    /**public void DisplayMessage() {
-        System.out.println("Nama Lengkap : " + NamaLengkap);
-        System.out.println("Alamat : " + Alamat);
-        System.out.println("Nomor Telepon : " + NoTelepon);
-        System.out.println("Email : " + email);
-    }*/
-
-    
 }
