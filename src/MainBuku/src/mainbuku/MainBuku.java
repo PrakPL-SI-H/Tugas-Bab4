@@ -23,7 +23,7 @@ public class MainBuku {
                     System.out.print("Masukkan Alamat : ");
                     String alamat = in.next();
                     System.out.print("Masukkan No Telp. : ");
-                    int no = in.nextInt();
+                    String no = in.next();
                     System.out.print("Masukkan Email : ");
                     String email = in.next();
                     DataBuku data = new DataBuku(nama, alamat, no, email);
@@ -39,19 +39,19 @@ public class MainBuku {
                     int pil2 = in.nextInt();
                     switch (pil2) {
                         case 1:
-                            System.out.println("Masukkan nama baru : ");
+                            System.out.print("Masukkan nama baru : ");
                             data2.setNama(in.next());
                             break;
                         case 2:
-                            System.out.println("Masukkan alamat baru : ");
+                            System.out.print("Masukkan alamat baru : ");
                             data2.setAlamat(in.next());
                             break;
                         case 3:
-                            System.out.println("Masukkan No. Telp baru : ");
-                            data2.setTelp(in.nextInt());
+                            System.out.print("Masukkan No. Telp baru : ");
+                            data2.setTelp(in.next());
                             break;
                         case 4:
-                            System.out.println("Masukkan Email baru : ");
+                            System.out.print("Masukkan Email baru : ");
                             data2.setEmail(in.next());
                             break;
                         default:

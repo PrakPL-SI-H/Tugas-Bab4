@@ -4,13 +4,13 @@ public class DataBuku {
 
     private static String nama;
     private static String alamat;
-    private static int telp;
+    private static String telp;
     private static String email;
 
     public DataBuku() {
     }
 
-    public DataBuku(String nama, String alamat, int telp, String email) {
+    public DataBuku(String nama, String alamat, String telp, String email) {
         this.nama = nama;
         this.alamat = alamat;
         this.telp = telp;
@@ -25,7 +25,7 @@ public class DataBuku {
         this.alamat = alamat;
     }
 
-    public void setTelp(int telp) {
+    public void setTelp(String telp) {
         this.telp = telp;
     }
 
@@ -41,7 +41,7 @@ public class DataBuku {
         return alamat;
     }
 
-    public int getTelp() {
+    public String getTelp() {
         return telp;
     }
 
