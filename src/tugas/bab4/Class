@@ -48,3 +48,15 @@ public class BukuAlamat {
     public String getEmail() {
         return email;
     }
+    
+    public void tampilkan() {
+        System.out.println("____________________________________________________________");
+        System.out.printf("%-20s\t%s\n", "Atribut", "Deskripsi");
+        System.out.println("____________________________________________________________");
+        System.out.printf("%-20s\t%s\n", "Nama", nama);
+        System.out.printf("%-20s\t%s\n", "Alamat", alamat);
+        System.out.printf("%-20s\t%s\n", "Nomor Telepon", telepon);
+        System.out.printf("%-20s\t%s\n", "Alamat E-Mail", email);
+        System.out.println("____________________________________________________________");
+    }
+}
