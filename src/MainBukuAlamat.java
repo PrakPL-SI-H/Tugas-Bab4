@@ -12,19 +12,20 @@ public class MainBukuAlamat{
         System.out.println("========================================");
         System.out.print  ("Masukkan Banyak Data Yang di Inginkan : ");
         int jumlahData = in.nextInt();
-        System.out.println("");
+        System.out.println("========================================");
         System.out.println("******** Masukkan Data Diri Anda *******");
         for (int j = 0; j < jumlahData; j++) {
             System.out.println("========================================");
-            System.out.print("Nama          : ");
+            System.out.print("Masukkan Nama          : ");
             data[j].setNama(in.next());
-            System.out.print("Alamat        : ");
+            System.out.print("Masukkan Alamat        : ");
             data[j].setAlamat(in.next());
-            System.out.print("Nomor Telepon : ");
+            System.out.print("Masukkan Nomor Telepon : ");
             data[j].setNoTel(in.next());
-            System.out.print("Email         : ");
+            System.out.print("Masukkan Email         : ");
             data[j].setEmail(in.next());
         }
+        System.out.println("========================================");
         System.out.println("");
         System.out.println("===============BUKU ALAMAT==============");
         for (int k = 0; k < jumlahData; k++) {
@@ -34,6 +35,7 @@ public class MainBukuAlamat{
             System.out.println("EMAIL          : " + data[k].getEmail());
             System.out.println("========================================");
         }
-
+        System.out.println("                  CLOSE         ");
+        System.out.println("         SEKIAN DAN TERIMA KASIH");
     }
 }
