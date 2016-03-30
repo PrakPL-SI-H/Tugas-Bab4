@@ -61,15 +61,26 @@ class Alamat {
             alamatEmail = input.next();
             System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
             System.out.println();
+            displayMessage();
         }
+    }
+
+    public void displayMessage() {
+        System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+        System.out.println("******************* ALL OF DATA ********************");
+        System.out.println("                Data - Data Buku Alamat             ");
+        System.out.printf("%-15s%-15s%-20s%s\n", "NAMA", "ALAMAT", "NOMER TELEPON", "ALAMAT EMAIL");
+        System.out.printf("%-15s%-15s%-20s%s\n", nama, alamat, noTelepon, alamatEmail);
+        System.out.println();
     }
 }
 
-class LatihanBab1 {
+public class LatihanBab1 {
 
     public static void main(String[] args) {
         System.out.println("tess");
-
+        Alamat data = new Alamat();
+        data.masukan();
     }
 
 }
