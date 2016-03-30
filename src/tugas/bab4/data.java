@@ -5,7 +5,7 @@ private String alamat;
 private String notlp;
 private String email;
 Scanner ini = new Scanner(System.in);
-    public data (String nama){ //CONSTRUCTOR
+    public data(String nama){ //CONSTRUCTOR
         this.nama = nama;
     }
     public String getAlamat(){  //ACCESSOR
