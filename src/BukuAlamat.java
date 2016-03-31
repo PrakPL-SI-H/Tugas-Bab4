@@ -2,48 +2,68 @@ package PrakPemLan;
 
 public class BukuAlamat {
 
-    String data[] = new String[5];
-    private String nama, almt, nmrtelp, email;
+    public static String[] isidata = new String[7];
+    public static String[] nama = new String[7];
+    public static String[] alamat = new String[7];
+    public static String[] notelp = new String[7];
+    public static String[] email = new String[7];
+    private int x;
+    private static int data;
 
-    public BukuAlamat(String n) {
-        this.nama = n;
+    public BukuAlamat() {
+        data++;
     }
 
-    public String getNama() {
-        return this.nama;
+    public BukuAlamat(int a, String nama, String alamat, String no, String email) {
+        this.nama[a] = nama;
+        this.alamat[a] = alamat;
+        this.notelp[a] = no;
+        this.email[a] = email;
+        data++;
     }
 
-    public void setAddress(String a) {
-        almt = a;
+    public static int getData() {
+        return data;
     }
 
-    public String getAddress() {
-        return almt;
+    public void setNama() {
+        this.nama = nama;
     }
 
-    public void setPhoneNumber(String hp) {
-        nmrtelp = hp;
+    public void setAlamat() {
+        this.alamat = alamat;
     }
 
-    public String getPhoneNumber() {
-        return nmrtelp;
+    public void setNo() {
+        this.notelp = notelp;
     }
 
-    public void setEmailAddress(String e) {
-        email = e;
+    public void setEmail() {
+        this.email = email;
     }
 
-    public String getEmailAddress() {
-        return email;
+    public String getNama(int x) {
+        return nama[x];
     }
 
-    public void PrintData() {
-        for (int i = 0; i < data.length; i++) {
-            System.out.println("Nama lengkap\t\t: " + this.nama);
-            System.out.println("Alamat lengkap\t\t: " + almt);
-            System.out.println("Nomor telepon personal\t: " + nmrtelp);
-            System.out.println("Alamat e-mail personal\t: " + email);
-            System.out.println();
-        }
+    public String getAlamat(int x) {
+        return alamat[x];
+    }
+
+    public String getNo(int x) {
+        return notelp[x];
+    }
+
+    public String getEmail(int x) {
+        return email[x];
+    }
+
+    public void display() {
+        System.out.println("########################################");
+        System.out.println("Nama lengkap\t\t: " + getNama(x));
+        System.out.println("Alamat lengkap\t\t: " + getAlamat(x));
+        System.out.println("Nomor telepon personal\t: " + getNo(x));
+        System.out.println("Alamat e-mail personal\t: " + getEmail(x));
+        System.out.println("########################################");
     }
 }
